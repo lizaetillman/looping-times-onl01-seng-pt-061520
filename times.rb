@@ -1,10 +1,6 @@
-require_relative "spec_helper"
-require_relative "../times.rb"
-
-def using_times = "Wingardium Leviosa"
-
+def using_times
   7.times do
-    puts using_times
+    puts "Wingardium Leviosa"
+    #prints phrase seven times
   end
-
 end
